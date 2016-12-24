@@ -29004,7 +29004,6 @@ void Game::ComposeFrame()
 		}
 	}
 	else {
-		//DrawTitleScreen(325, 211);
-		gfx.DrawCircle(400, 300, 100, Colors::Green);
+		DrawTitleScreen(325, 211);
 	}
 }

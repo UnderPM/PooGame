@@ -59,7 +59,7 @@ public:
 	}
 	void PutPixel( int x,int y,Color c );
 	void DrawRect(int x0, int x1, int y0, int y1, Color c);
-	void DrawRectByDim(int x, int y, int width, int heigth);
+	void DrawRectByDim(int x, int y, int width, int heigth, Color c);
 	void DrawCircle(int x, int y, const int radius, Color c);
 	~Graphics();
 private:
